@@ -70,6 +70,7 @@ class TableViewController: UITableViewController, ExpandableHeaderViewDelegate {
     }
     
     func toggleSection(header: ExpandableHeaderView, section: Int) {
+        
         sections[section].expanded = !sections[section].expanded
         
         tableView.beginUpdates()
